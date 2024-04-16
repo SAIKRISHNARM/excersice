@@ -1,0 +1,77 @@
+.p1{
+    font-family: Tahoma;
+    font-size: large;
+}
+.p2{
+    font-family: Arial;
+    font-size: large;
+    margin-bottom: 5px;
+}
+.p3{
+    font-family: Arial;
+    font-size: 14px;
+    font-style: italic;
+    color: red;
+    margin-top: 0px;
+}
+.p4{
+    font-family: Verdana;
+    margin-bottom: 5px;
+}
+.p5{
+    font-family: Verdana;
+    font-size: 14px;
+    margin-top: 0px;
+    color: rgb(147, 147, 147);
+}
+.b1{
+    border-color: green;
+    border-radius: 4px;
+    background-color: green;
+    color: aliceblue;
+    height: 30px;
+    width: 100px;
+    border: none;
+
+}
+.p6{
+    color: chocolate;
+    margin-bottom: 5px;
+}
+.s1{
+    font-family: arial;
+    text-align: center;
+}
+.s2{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.buy{
+    background-color: rgb(5, 5, 199);
+    color: aliceblue;
+    border: none;
+    height: 30px;
+    width: 50px;
+    border-radius: 23px;
+    margin: 0;
+}
+.buy:hover{
+    background-color: rgb(88, 88, 173);
+    color: rgb(255, 255, 255);
+}
+.u{
+    font-family: arial;
+    font-size: medium;
+    color:rgb(146, 146, 146);
+}
+.p7{
+    margin-top: 0px;
+    color: rgb(42, 179, 11);
+    margin-bottom: 5px;
+}
+.l{
+    color: red;
+}
+.p8{
+    margin-top: 5px;
+}

@@ -1,0 +1,29 @@
+p {
+    font-family: Rubik Doodle Shadow;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .para {
+    font-style: inherit;
+    font-size: 30px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+  .para2{
+      font-size: 15px;
+  }
+  .para3 {
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+  .para4{
+      text-align: center;
+      background-color: rgb(227,65,64);
+      color: aliceblue;
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .s1:hover{
+      cursor: pointer;
+      text-decoration: underline;
+  }

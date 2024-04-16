@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flexbox</title>
+    <style>
+        .flex {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left: 12px;
+            padding-right: 12px;
+
+        }
+
+        .not {
+            padding-top: 4px;
+            padding-bottom: 4px;
+            padding-left: 10px;
+            padding-right: 10px;
+            color: aliceblue;
+            background-color: black;
+            border-radius: 15px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="display: flex;
+    flex-direction: row;">
+        <div style="background-color: aqua;">div</div>
+        <div style="background-color: rgb(0, 255, 55);">div2
+            <p>text</p>
+        </div>
+    </div>
+    <div style="display: flex; margin-top: 10px;
+    flex-direction: row;">
+        <div style="background-color: aqua; width: 100px;">100px</div>
+        <div style="background-color: rgb(0, 255, 55); flex: 1;">div2</div>
+    </div>
+
+    <div style="display: flex; margin-top: 30px; height: 30px;
+    border-width: 2px; border-style: solid; border-color: rgb(255, 47, 0);
+    flex-direction: row;">
+        <div style="background-color: aqua; width: 100px;">100px</div>
+        <div style="background-color: rgb(0, 255, 55);  width: 100px;">div2</div>
+        <div style="background-color: aqua; width: 100px;">100px</div>
+    </div>
+
+
+    <div style="display: flex; margin-top: 30px; height: 30px;
+    border-width: 2px; border-style: solid; border-color: rgb(255, 47, 0);
+    flex-direction: row; justify-content: space-between">
+        <div style="background-color: aqua; width: 100px;">100px</div>
+        <div style="background-color: rgb(0, 255, 55);  width: 100px;">div2</div>
+        <div style="background-color: aqua; width: 100px;">100px</div>
+    </div>
+    <div style="display: flex; margin-top: 30px; height: 30px;
+    flex-direction: row;">
+        <div style="background-color: aqua; width: 200px;">100px</div>
+        <div style="background-color: rgb(0, 255, 132); width: 75px;">100px</div>
+    </div>
+
+    <div style="display: flex; margin-top: 30px; height: 30px;
+    border-width: 2px; border-style: solid; border-color: rgb(255, 47, 0);
+    flex-direction: row; ">
+        <div style="background-color: aqua; width: 100px;">100px</div>
+        <div style="background-color: rgb(0, 255, 55); flex: 1;">div2</div>
+        <div style="background-color: aqua; width: 100px;">100px</div>
+    </div>
+
+    <div style="display: flex; margin-top: 30px; height: 30px;
+    border-width: 2px; border-style: solid; border-color: rgb(255, 47, 0);
+    flex-direction: row; justify-content: space-between; ">
+        <div style="background-color: aqua; width: 100px;">100px</div>
+        <div style="background-color: aqua; width: 100px;">100px</div>
+        <div style="background-color: aqua; width: 100px;">100px</div>
+        <div style="background-color: aqua; width: 100px;">100px</div>
+    </div>
+
+    <div style="display: flex; margin-top: 30px; height: 60px;
+     border-width: 2px; border-style: solid; border-color: rgb(255, 47, 0); align-items: center;
+    flex-direction: row; justify-content: space-between;">
+        <div style="background-color: aqua; width: 200px;  height: 30px ;">100px</div>
+        <div style="background-color: rgb(0, 255, 132); width: 200px; height: 30px ;">100px</div>
+    </div>
+
+    <div style="display: flex; margin-top: 30px; height: 50px; padding-left: 15px;
+    padding-left: 15px ;  background-color: rgb(128, 0, 255); align-items: center;
+    color: aliceblue; justify-content: space-between;">
+        <div style="font-weight: bold;">
+            Home </div>
+        <input style="width:500px;border:none; 
+        border-radius:18px; padding-left: 15px;  height: 20px;" placeholder="Search">
+        <button style="margin-right: 20px; 
+        border-width:1px; color: aliceblue; background-color: rgb(128, 0, 255); 
+        border-radius: 1px; border-style: solid;border-color: aliceblue;
+        padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px ">Download</button>
+    </div>
+    <div style="width: 300px; height: 100px; background-color: antiquewhite; ">
+        <div class="flex">
+            <div>Home</div>
+            <div class="not">14 </div>
+        </div>
+    </div>
+    <div style="display: flex;   flex-direction: row; height: 50px; ">
+        <div style="width: 200px;background-color: rgb(242, 242, 181); display: flex; 
+            align-items: center; justify-content: center;">
+            <div style="background-color: black; 
+            color: rgb(153, 177, 199);">
+                item1 </div>
+        </div>
+
+        <div style=" width:200px;  background-color: rgb(228, 159, 89);">
+        </div>
+    </div>
+    <div style="display: flex;flex-direction: row;">
+        <div style="width: 200px;background-color: rgb(242, 242, 181); display: flex; 
+        align-items: center; justify-content: center;">
+            <div style="background-color: black; 
+        color: rgb(153, 177, 199);">
+                item1 </div>
+        </div>
+
+        <div style=" width:200px;  background-color: rgb(228, 159, 89); display: flex; 
+    flex-direction: column; height: 100px;">
+            <div style="
+        color: rgb(255, 255, 255);">
+                item1 </div>
+            <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                <div style="background-color: black; 
+            color: rgb(153, 177, 199);">
+                    item1 </div>
+                <div style="background-color: black; 
+                color: rgb(153, 177, 199);">
+                    item1 </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div style="margin-left: 10px; display: flex; flex-direction: column; width: 400px;
+        height: 100px; border: solid; border-radius: 2px; padding-left: 10px;padding-top: 10px;
+        border-color: rgb(169, 57, 57);">
+        <div>ALL INBOXES</div>
+        <div style=" padding-top: 10px; display: flex; flex-direction: row;">
+            <img style=" 
+            width:60px; height: 60px; object-fit: cover; 
+            border-radius: 35px;" src="styles/cat.jpg">
+            <div style=" padding-left: 10px; display: flex; flex-direction:column;">
+                    <div style="background-color: aqua; width: 300px; display: flex; flex-direction:row; justify-content: space-between;">
+                        <div>ALL INBOXES </div>
+                        <div> 4.30 pm</div>
+                    </div>
+                    <div>ALL INBOXES</div>
+                    <div>ALL INBOXES</div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
